@@ -12,6 +12,9 @@
     "test": "jest --coverage",
     "prepublishOnly": "npm run test && npm run build"
   },
+  "pre-commit": [
+    "build"
+  ],
   "keywords": [
     "react",
     "chat",
