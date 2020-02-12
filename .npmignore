@@ -8,5 +8,5 @@ circle.yml
 .babelrc
 .eslintrc.js
 .eslintignore
-webpack.config.js
+#webpack.config.js
 package-lock.json
