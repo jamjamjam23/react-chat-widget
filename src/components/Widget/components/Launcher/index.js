@@ -11,8 +11,9 @@ const Launcher = ({ toggle, chatOpened, badge }) =>
   <button type="button" className={chatOpened ? 'rcw-launcher rcw-hide-sm' : 'rcw-launcher'} onClick={toggle}>
     <Badge badge={badge} />
     {chatOpened ?
-      <img src={close} className="rcw-close-launcher" alt="" /> :
+      <div className="row-open-launcher" alt="">Chat</div>:
       <img src={openLauncher} className="rcw-open-launcher" alt="" />
+      // <img src={close} className="rcw-close-launcher" alt="" /> :
     }
   </button>;
 
